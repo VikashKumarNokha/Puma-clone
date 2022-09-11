@@ -44,7 +44,7 @@ Want to run in your local Machine? Great!
 
 To run, follow these steps:
 
-- Clone my repository 'https://github.com/akashbind12/PUMA_Clone.git'
+- Clone my repository 'https://github.com/VikashKumarNokha/Puma-clone'
 - npm i
 - npm run dev
 
@@ -61,7 +61,7 @@ To run, follow these steps:
 
 ## Creator
 
-- [@akashbind12](https://github.com/akashbind12)
+- [@VikashKumarNokha](https://github.com/VikashKumarNokha)
 
 
 
