@@ -1,7 +1,7 @@
 # Puma_clone
 
 ## frontend
-https://puma-clone-eight.vercel.app/
+https://puma-clone-sandy.vercel.app/
 
 ## backend 
 https://puma-vikash-heroku.herokuapp.com/
@@ -15,7 +15,7 @@ https://puma-vikash-heroku.herokuapp.com/
 </tr>
 </table>
 
-## [puma.com Clone](https://puma-clone-eight.vercel.app/)
+## [puma.com Clone](https://puma-clone-sandy.vercel.app/)
 
 ### Home Page 
 ![Screenshot (242)](https://user-images.githubusercontent.com/97519781/181250797-a37d82b8-5315-43a9-8116-8819fb28edf1.png)
