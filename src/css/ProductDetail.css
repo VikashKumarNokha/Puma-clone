@@ -1,0 +1,288 @@
+.Product-detail-page{
+    margin-top: 60px;
+    border: 1px solid white;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.product_nav {
+    height: 60px;
+    padding: 0 40px;
+    /* border: 1px solid red; */
+}
+
+.product_nav>.ul {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 22px;
+    padding: 0px 30px;
+    border: 1px solid red;
+}
+
+.ul>li {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.last_list {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #6c757d;
+    /* font-weight: 700; */
+    font-size: 12px;
+    letter-spacing: 0px;
+}
+
+.ul>li {
+    text-decoration: none;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: 12px;
+    letter-spacing: 0px;
+}
+
+.ul>li>a:hover {
+    color: #ae946d;
+}
+
+.detail-path2{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    padding: 15px;
+    margin-left: 70px;
+}
+.path>div{
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.main-body-of-prod-data {
+    width: 87%;
+    margin: auto;
+    /* border: 1px solid red; */
+    padding-top: 20px;
+}
+
+.product-details-section {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    padding: 0px 20px;
+    margin-top: -25px;
+}
+
+.product-img1 {
+      height: auto;
+      width: 100%;
+      cursor: pointer;
+}
+
+.prod-mid-img {
+    display: flex;
+    cursor: pointer;
+}
+
+.img-size {
+    width: 50%;
+    height: 20%;
+    padding: 5px;
+}
+.strick-price span{
+    text-decoration: line-through;
+    font-size: 16px;
+}
+.rigth-product-data {
+    padding: 2px 2px 30px 30px;
+    /* border: 1px solid red; */
+}
+s
+h1.prod-name {
+    font-size: 26px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    margin-bottom: 20px;
+    color: #222222;
+    /* border: 1px solid red; */
+}
+h1.prod-name {
+    font-size: 28px;
+    /* border: 1px solid red; */
+    margin-bottom: 20px;
+}
+.prod-price span{
+    color: red;
+    font-size: 18px;
+}
+.prod-price>span {
+    font-size: 22px;
+    font-weight: 900;
+    letter-spacing: -1px;
+    color: #222222;
+}
+
+.product-variation-container {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.prod-image-cate {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.hr-line {
+    margin: 30px 0;
+    border: 0px;
+    border-top: 1px solid rgb(226, 226, 226);
+}
+
+.prod-size-cate {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.design-size {
+    width: 63px;
+    height: 63px;
+    border: 1px solid rgb(223, 223, 223);
+    margin: 5px 5px 0 0;
+    cursor: pointer;
+}
+
+.design-size:hover {
+    border: 1px solid rgb(98, 98, 98);
+}
+
+.p-size {
+    text-align: center;
+    padding: 35% 0;
+    color: grey;
+}
+
+.quantity-add-to-card {
+    margin-top: 30px;
+    display: flex;
+}
+
+.quantity-div {
+    display: inline-block;
+    padding: 0 10px;
+    /* border: 1px solid red; */
+}
+
+.quantity-div>select{
+    padding: 12px 16px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid rgb(223, 223, 223);
+    margin-right: 10px;
+    margin-left: -10px;
+    cursor: pointer;
+    color: black;
+}
+.quantity-div>select:focus{
+   outline: none;
+}
+
+
+.quantity-div>select:hover {
+    border: 1px solid rgb(98, 98, 98);
+}
+
+.cart-btn {
+    width: 20vw;
+    height: 48px;
+    background: #ae946d;
+    color: rgb(243, 243, 243);
+    cursor: pointer;
+    text-align: center;
+    font-weight: 800;
+    font-size: 15px;
+    border: 0px;
+    border-radius: 2px;
+}
+
+.cart-btn:hover {
+    background: #b7a07d;
+}
+
+.cLook-btn {
+    width: 20vw;
+    height: 48px;
+    background: #000000;
+    color: rgb(235, 235, 235);
+    cursor: pointer;
+    text-align: center;
+    font-weight: 800;
+    font-size: 15px;
+    border: 0px;
+    border-radius: 2px;
+    margin: 10px 0 0;
+}
+
+.wish-list-btn {
+    width: 20vw;
+    height: 48px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 15px;
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 2px;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wish-list-btn:hover {
+    border: 1px solid rgb(98, 98, 98);
+}
+
+.heart-img {
+    width: 15px;
+    height: 15px;
+    margin-top: 15px;
+}
+
+.wish-list-btn>span {
+    margin-top: 14px;
+    margin-left: -30px;
+}
+
+.shipping {
+    display: flex;
+    margin: -10px 0;
+}
+
+.shpping-img {
+    height: 30px;
+    width: 38px;
+    margin-right: 10px;
+}
+
+.redline{
+    color: #ba2026;
+    font-size: .8rem;
+    font-family: FFDINforPuma,-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+}
+
+#S{
+    border : 1px solid black
+}
+#M{
+    border : 1px solid black
+}
+#L{
+    border : 1px solid black
+}
+
+

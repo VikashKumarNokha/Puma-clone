@@ -1,0 +1,155 @@
+.home{
+    margin-top: 60px;
+}
+.banner1{
+    /* border: 1px solid red; */
+    height: 500px;
+    background-image: url("https://images.puma.com/image/upload/q_auto,f_auto,w_1440/regional/~regional~IND~others~KOP~July2022~Desktop-EOSS-banner-july-refresh.jpg/fmt/jpg/fmt/png");
+}
+.banner_content1{
+    /* border: 1px solid red; */
+    width: 30%;
+    float: right;
+    margin: 150px 50px;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 700;
+    /* line-height: 1.5; */
+    color: white;
+}
+/* .head11{
+    border: 1px solid red2
+} */
+.btns_div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.btn{
+    font-family: FFDINforPuma,-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-size: .9375rem;
+    font-weight: 600;
+    letter-spacing: .025rem;
+    line-height: .9375rem;
+    padding: 0.8125rem 1rem;
+    text-transform: uppercase;
+    white-space: normal;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #343a40;
+ }
+ .banner2{
+    /* border: 1px solid red; */
+    height: 400px;
+    background-image: url("https://images.puma.com/image/upload/q_auto,f_auto,w_1440/regional/~regional~IND~others~KOP~July2022~outlet-EOSS-banner-july.jpg/fmt/jpg/fmt/png");
+}
+.banner_content2{
+    /* border: 1px solid red; */
+    width: 40%;
+    float: right;
+    margin: 100px 50px;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 700;
+    /* line-height: 1.5; */
+    color:  black;
+}
+.banner3{
+    height: 350px;
+    background-image: url("https://images.puma.com/image/upload/q_auto,f_auto,w_1440/regional/~regional~IND~others~KOP~July2022~Last-chance-to-buy-desktop.jpg/fmt/jpg/fmt/png");
+}
+.banner_content3{
+    border: 1px solid red;
+    width: 100%;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color:  black;
+    padding: 100px 400px 100px 400px;
+}
+.banner4{
+    height: 450px;
+    background-image: url("https://images.puma.com/image/upload/q_auto,f_auto,w_1440/regional/~regional~IND~others~KOP~July2022~New-arrivals-Desktop.jpg/fmt/jpg/fmt/png");
+}
+.banner_content4{
+    /* border: 1px solid red; */
+    width: 40%;
+    float: left;
+    margin: 150px 50px;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: black;
+}
+.trending_section{
+    /* border: 1px solid red; */
+    height: 200px;
+}
+.trending_title{
+    /* border: 1px solid red; */
+    font-weight: 700;
+    font-size: 20px;
+}
+.trending_content{
+    /* border: 1px solid red; */
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    margin-top: 25px;
+}
+.trending_buttons{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: white;
+}
+.trending_buttons>button{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    width: 150px;
+    font-family: FFDINforPuma,-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-size: .9375rem;
+    font-weight: 700;
+    letter-spacing: .025rem;
+    line-height: .9375rem;
+    padding: 0.8125rem 1rem;
+    text-transform: uppercase;
+    white-space: normal;
+    margin: 5px 5px 0 5px;
+}
+.trending_buttons>button:hover{
+    color: white;
+    background-color: black;  
+}
+.banner5{
+    height: 450px;
+    background-image: url("https://images.puma.com/image/upload/f_auto,fl_lossy,q_60,w_1440/regional/~regional~IND~others~KOP~July2022~July-edit_Desktop-%28green%29.gif/fmt/gif/fmt/gif");
+}
+.banner6{
+    height: 450px;
+    background-image: url("https://images.puma.com/image/upload/q_auto,f_auto,w_1440/regional/~regional~IND~others~KOP~June2022~KKK+Yoga+Day+Banner+Desktop+%281%29.jpg/fmt/jpg/fmt/png");
+}
+.banner_content6{
+    /* border: 1px solid red; */
+    width: 40%;
+    float: right;
+    margin: 150px 50px;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: black;
+}
+.banner7{
+    height: 450px;
+    background-image: url("https://images.puma.com/image/upload/q_auto,f_auto,w_1440/regional/~regional~IND~others~KOP~June2022~Womens+Fashion+line+BannerDesktop.jpg/fmt/jpg/fmt/png");
+}
+.banner8{
+    height: 450px;
+    background-image: url("https://images.puma.com/image/upload/q_auto,f_auto,w_1440/regional/~regional~IND~others~KOP~May+2022~DESKTOP+Bleed.jpg/fmt/jpg/fmt/png");
+}

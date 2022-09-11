@@ -1,0 +1,229 @@
+#sub{
+    margin: 60px 2.5%; 
+    color: black;
+    /* border: 1px solid red; */
+    padding-top: 40px;
+}
+#easy-returns{
+    border: 1px solid #eee; 
+    text-align: center; 
+    height: 40px; 
+    /* border-radius: 5px; */
+    line-height: 1.5;
+    padding: 0.5rem;
+    color: #666;
+    margin-top: 1.2rem;
+    /* border: 1px solid red; */
+}
+#easy-returns>p{
+    font-size: 15px; 
+    color: #666;
+    /* border: 1px solid red; */
+}
+#cart-items{
+    display: flex; 
+    margin-top: 3%; 
+    color: black; 
+    justify-content: space-between;
+    font-family: FFDINforPuma,-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    /* border: 1px solid red; */
+}
+.cart-items-div{
+    /* border: 1px solid red; */
+    width: 60%;
+}
+#item-design{
+    border: 1px solid #eee; 
+    display: flex; 
+    gap: 4%; 
+    height: 300px; 
+    width: 100%;
+    color: black;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+#cart-details{
+    border: none;
+    height: 450px; 
+    width: 30%;  
+    color: black;
+     /* border: 1px solid red; */
+}
+#item-image{
+    height: 100%; 
+    width: 100%; 
+    padding: 15px;
+    cursor: pointer;
+    /* border: 1px solid red; */
+}
+#cart-item-details{
+    line-height: 30px; 
+    padding: 1%;
+}
+.black{
+    color: black;
+}
+#quantity{
+    height: 12%; 
+    width: 25%; 
+    font-size: 16px;
+    padding: 0 10px 0 10px;
+    cursor: pointer;
+}
+#quantity:focus{
+   outline: none;
+}
+#cart-item-price{
+    width: 18%; 
+    text-align: end; 
+    padding: 1%; 
+    color: black;
+}
+#original-price{
+    font-size: 20px; 
+    color: black;
+    /* border: 1px solid red; */
+    padding: 5px;
+}
+#cart-icons{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    font-size: 20px;
+    /* border: 1px solid red; */
+    padding: 5px;
+}
+#cart-icons>*{
+    cursor: pointer;
+}
+
+#Promocode{
+     padding: 5%; 
+     background-color: #fafafa;
+     /* border: 1px solid red; */
+     font-weight: 700;
+     cursor: pointer;
+}
+.Enterpromo{
+    /* display: none; */
+    /* border: 1px solid red; */
+    color: #181818;
+    margin-bottom: 0.3125rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #222;
+    text-align: left;
+    margin-top: 30px;
+}
+#js-promo-box{
+    /* border: 1px solid red; */
+    display: flex;
+    margin-bottom: 20px;
+}
+#js-promo-box>input {
+    display: block;
+    width: 65%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    padding: 10px;
+}
+#js-promo-box>input:focus {
+    outline: none;
+}
+#promo-button{
+    font-family: FFDINforPuma,-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-size: .9375rem;
+    font-weight: 600;
+    letter-spacing: .025rem;
+    line-height: .9375rem;
+    padding: 0.8125rem 1rem;
+    text-transform: uppercase;
+    white-space: normal;
+    width: 35%;
+    border-radius: 0;
+    border: none;
+    background-color: #ccc;
+    border-color: #ccc;
+    opacity: 1;
+    color: white;
+}
+#js-apply-promo{
+    margin-top: 100px; 
+    color: black; 
+    font-size: 25px; 
+    cursor: pointer;
+}
+
+.sub-total{
+    display: flex; 
+    justify-content: space-between; 
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    margin: 10px; 
+    font-weight: 400;
+}
+.line{
+    border-bottom: 1px solid #ccc;
+    margin: 10px;
+}
+.grand-total{
+ display: flex; 
+ justify-content: space-between; 
+ font-size: 20px; 
+ margin: 20px 0 15px 0; 
+ color: black;
+ /* border: 1px solid red; */
+ padding: 10px;
+ 
+}
+#tax{
+    font-size: 15px; 
+    margin-top: 5px;
+}
+
+#cart-checkout{
+    background-color: #9d8157;
+    border-color: #957b53;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    font-size: 1rem;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    line-height: 1.5rem;
+    padding: 5px 0 5px 0;
+    cursor: pointer;
+}
+#cart-checkout:hover{
+    background-color: #ae946d;
+}
+#checkout{
+    text-align: center; 
+    padding: 8px; 
+    color: white;
+}
+
+.loading{
+    margin: 100px auto;
+    width: 20%;
+    padding-top: 100px;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.loading{
+    margin: auto;
+    width: 20%;
+    /* border: 1px solid red; */
+    text-align: center;
+}

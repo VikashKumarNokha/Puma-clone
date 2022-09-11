@@ -1,0 +1,195 @@
+.mens-page{
+    margin-top: 60px;
+    /* border: 1px solid red; */
+}
+.path{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+.path>div{
+    font-size: 13px;
+    color: #000;
+    display: inline-block;
+    font-weight: 700;
+    text-transform: none;
+}
+.path>div:nth-child(5){
+    font-weight: 400;
+    /* border: 1px solid red; */
+}
+.heading{
+    /* border: 1px solid red; */
+    font-size: 2rem;
+    line-height: 2.5rem;
+    width: 40%;
+    padding-left :25px;
+}
+.para{
+    /* border: 1px solid red; */
+    font-size: .875rem;
+    line-height: 1.5rem;
+    padding-left :25px;
+    width: 75%;
+    margin-bottom: 3rem;
+}
+.filters-div{
+    /* border: 1px solid red; */
+    margin: 0 -1rem 1.25rem;
+    padding: 0 1rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 60px;
+  
+}
+.filers-line{
+    transition: top .3s ease-in-out;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    margin: 0 -1rem 1.25rem;
+    padding: 1.25rem 1rem;
+    z-index: 50;
+    /* border: 1px solid red; */
+    display: flex;
+}
+.bar-left{
+    font-family: FFDINforPuma,-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #222;
+    text-align: left;
+    display: flex;
+    /* border: 1px solid red; */
+    width: 60% ;
+    margin-left :25px;
+}
+
+.bar-right{
+    margin: 0;
+    font-family: FFDINforPuma,-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #222;
+    text-align: right;
+    background-color: #fff;
+    /* border: 1px solid red; */
+    width : 20%;
+    margin-left: 200px;
+}
+.bar-right>select{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 5px;
+    outline: none;
+    cursor: pointer;
+}
+.bar-right>select :focus{
+    outline: none;
+}
+.product-div{
+    /* border: 1px solid red; */
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(500px, auto);
+}
+.product-div-div{
+    font-family: FFDINforPuma,-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #222;
+    text-align: left;
+    /* border: 1px solid red; */
+}
+.product-div-div:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    cursor: pointer;
+}
+.prod-img{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 70%;
+    cursor: pointer;
+}
+.prod-img>img{
+    width: 100%;
+    height: 100%;
+}
+.prod-title{
+    /* border : 1px solid red; */
+    display: flex;
+    font-family: FFDINforPuma,-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #222;
+    text-align: left;
+    padding: 10px;
+}
+
+.title>div:nth-child(1){
+    width: 70%;
+}
+.title>div:nth-child(2){
+    /* border : 1px solid green; */
+    color: #ba2026;
+    margin: 0 0 0.625rem;
+    font-size: .875rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    padding: 10px 0 10px 0;
+}
+.price{
+    /* border : 1px solid red; */
+    padding: 10px 0 10px 0;
+}
+
+.loading{
+    margin: auto;
+    width: 20%;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 420px) {
+    .path{
+        width: 70%;
+    }
+    .heading{
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    .filters-div{
+        /* border: 1px solid red; */
+        display: none;
+    }
+    .product-div{
+        /* border: 1px solid red; */
+        width: 80%;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+        /* grid-template-rows: repeat(1,100px); */
+    }
+    .product-div-div{
+        border: 1px solid white;
+    }
+    /* .checkout-left{
+        width:90% ;
+        margin:auto
+    }
+    .checkout-right{
+        width:90%;
+        margin:auto
+    } */
+    }

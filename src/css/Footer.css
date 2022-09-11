@@ -1,0 +1,142 @@
+#footer {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    height: 74vh;
+  
+    background-color: black;
+    position: relative;
+    margin-top: 3rem;
+  }
+  .footer_info {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 94%;
+    margin: auto;
+  }
+  .left {
+    /* border: 1px solid red; */
+    width: 70%;
+    display: flex;
+    gap: 20px;
+  }
+  .left .left_1,
+  .left_2 {
+    width: 470px;
+    /* border: 1px solid red; */
+  }
+  .left_1 h2,
+  .left_2 h2,
+  .right h2 {
+    padding: 12px 0;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    /* border: 1px solid red; */
+  }
+  .left .footer_links {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 9px;
+    /* border: 1px solid red; */
+    line-height: 10px;
+  }
+  .left .footer_links ul {
+    padding: 0;
+    margin: 0;
+  }
+  .left .footer_links ul li {
+    list-style: none;
+    margin: 15px 0;
+  }
+  .left .footer_links ul li a {
+    color: rgb(128, 120, 120);
+    transition: all 0.4s ease-in;
+    font-size: 14px;
+    /* border: 1px solid red; */
+  }
+  .left .footer_links ul li a:hover {
+    color: rgb(253, 253, 253);
+  }
+   .right {
+    width: 270px;
+    /* border: 1px solid red; */
+  }
+   .right .social_icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 96%;
+    /* margin: 19px 6px; */
+    /* border: 1px solid red; */
+  }
+   .right .social_icons i {
+    font-size: 26px;
+    color: white;
+  }
+   .right .social_icons:hover i {
+    color: rgb(150, 140, 140);
+  }
+   .right .social_icons i:hover {
+    color: rgb(253, 253, 253);
+  }
+  
+  .company {
+    align-items: center;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    border-top: 0.1px solid gray;
+    padding: 10px;
+  }
+  .company .info p {
+    font-size: 10px;
+    border-bottom: 1px solid white;
+    padding: 10px 0;
+    cursor: pointer;
+    color: white;
+  }
+  .right hr {
+    color: rgb(201, 192, 192);
+    margin-top: 9rem;
+  }
+  #footer .hr_line {
+    position: absolute;
+    bottom: 11px;
+    color: white;
+    width: 98%;
+  }
+  .hr_line hr {
+    color: white;
+  }
+  .about_company {
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: 13px 10px;
+    margin-left: 77px;
+    display: flex;
+  }
+  #country{
+      width: 20%;
+      padding: 10px 15px;
+      border: 1px solid gray;
+      background-color: black;
+      color: white;
+  }
+  .social_icons>a{
+    font-size: 25px;
+    color: rgb(128, 120, 120);
+  }
+  .social_icons>a:hover{
+    font-size: 25px;
+    color: white;
+  }
+  li>a{
+    
+    text-decoration: none;
+  }
