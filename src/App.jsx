@@ -16,7 +16,10 @@ function App() {
 
   return (
     <div className="App">
+       {/* navbar component here */}
       <Navbar></Navbar>
+
+       {/* Here Home, mans, womens, producutDetails,  cart, account pages */}
       <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/mens" element={<Mens></Mens>} />
@@ -27,6 +30,8 @@ function App() {
           <Route path="/checkout" element={<Checkout></Checkout>} />
           <Route path="/account" element={<Account></Account>} />
       </Routes>
+
+         {/*  Footer component here  */}
       <Footer></Footer>
     </div>
   )
