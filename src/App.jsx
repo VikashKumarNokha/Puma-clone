@@ -31,7 +31,7 @@ function App() {
           <Route path="/account" element={<Account></Account>} />
       </Routes>
 
-         {/*  Footer component here  */}
+         {/*  Footer component here  */}     
       <Footer></Footer>
     </div>
   )
