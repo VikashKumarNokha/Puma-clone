@@ -10,24 +10,26 @@ export const Footer = () => {
        <div id="footer">
           <div className="footer_info">
           <div className="left">
+             {/* Support section here  */}
             <div className="left_1">
               <h2>Support</h2>
               <div className="footer_links">
                 <ul>
-                  <li><a href="">Contact Us</a></li>
-                  <li><a href="">FAQ</a></li>
-                  <li><a href="">Promotions & Sale</a></li>
-                  <li><a href="">My Account</a></li>
-                  <li><a href="">Track Order</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Promotions & Sale</a></li>
+                  <li><a href="#">My Account</a></li>
+                  <li><a href="#">Track Order</a></li>
                 </ul>
                 <ul>
-                  <li><a href="">Return Policy</a></li>
-                  <li><a href="">Privacy Policy</a></li>
-                  <li><a href="">Terms & consitions</a></li>
-                  <li><a href="">Initiate Return</a></li>
+                  <li><a href="#">Return Policy</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Terms & consitions</a></li>
+                  <li><a href="#">Initiate Return</a></li>
                 </ul>
               </div>
             </div>
+               {/* Here Abou puma  */}
             <div className="left_2">
               <h2>About PUMA</h2>
               <div className="footer_links">
@@ -45,6 +47,7 @@ export const Footer = () => {
               </div>
             </div>
           </div>
+              {/*  some inspirational about puma  */}
           <div className="right">
             <h2>More Inspiration</h2>
             <div className="social_icons">
@@ -55,6 +58,7 @@ export const Footer = () => {
             </div>
             <br />
             <br />
+                 {/*  Puma logo here  */}
             <div className="company d-flex">
               <div className="company_logo">
                 <img
@@ -75,6 +79,7 @@ export const Footer = () => {
             <hr style={{
                 border : "0.1px solid gray",
             }}></hr>
+               {/*  language selection here  */}
             <div className="about_company d-flex">
                 <select name="country" id="country">
                 <option value="india">ENGLISH</option>
