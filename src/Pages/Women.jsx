@@ -59,10 +59,12 @@ export const Womens = () => {
                 <div>.</div>
                 <div className="new-arrival">New Arrivals</div>
             </div>
+               {/*  Here brief intro about products */}
             <h1 className="heading">WOMEN'S NEW ARRIVALS</h1>
             <p className="para">Discover the latest trends of men's sports clothing, shoes and accessories and shop PUMA's new arrivals collection for men. Shop the latest styles for your athleisure look now and make the most out of your training. PUMA sports products combine the high quality of a traditional company with the innovative spirit of a trend-conscious brand. "Always new, always better," is the motto. High-tech materials and the latest findings in sports science are reflected in the newest arrivals.</p>
             <div className="filters-div">
                 <div className="filers-line">
+                      {/* Here all different types of searching categores */}
                     <div className="bar-left">
                         <MultipleSelectCheckmarks title={"Category"} names={Categories}></MultipleSelectCheckmarks>
                         <MultipleSelectCheckmarks title={"ProductType"} names={ProductType}></MultipleSelectCheckmarks>
@@ -81,7 +83,7 @@ export const Womens = () => {
                     </div>
                 </div>
             </div>
-            
+                {/*  Here all product details of woemens */}
             {loading ? <div className="loading"><CircularIndeterminate /></div>
                 :
                 <div className="product-div">
@@ -99,7 +101,8 @@ export const Womens = () => {
                                         </div>
                                         <div className="price">₹{e.price}</div>
                                     </div>
-                                </div> </Link>
+                                </div>
+                            </Link>
                         )
                     })}
 
