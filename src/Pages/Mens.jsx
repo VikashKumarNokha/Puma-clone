@@ -56,6 +56,7 @@ export const Mens = () => {
 
     return (
         <div className="mens-page">
+             {/* Heading part  */}
             <div className="path">
                 <div>Home</div>
                 <div>.</div>
@@ -63,10 +64,12 @@ export const Mens = () => {
                 <div>.</div>
                 <div className="new-arrival">New Arrivals</div>
             </div>
+               {/*  some brief intro about product */}
             <h1 className="heading">MEN'S NEW ARRIVALS</h1>
             <p className="para">Discover the latest trends of men's sports clothing, shoes and accessories and shop PUMA's new arrivals collection for men. Shop the latest styles for your athleisure look now and make the most out of your training. PUMA sports products combine the high quality of a traditional company with the innovative spirit of a trend-conscious brand. "Always new, always better," is the motto. High-tech materials and the latest findings in sports science are reflected in the newest arrivals.</p>
             <div className="filters-div">
                 <div className="filers-line">
+                      {/* Select items by categories */}
                     <div className="bar-left">
                         <MultipleSelectCheckmarks title={"Category"} names={Categories}></MultipleSelectCheckmarks>
                         <MultipleSelectCheckmarks title={"ProductType"} names={ProductType}></MultipleSelectCheckmarks>
@@ -84,7 +87,7 @@ export const Mens = () => {
                     </div>
                 </div>
             </div>
-            
+             {/*  Here  all product details  */}
             {loading ? <div className="loading"><CircularIndeterminate /></div>
                 : <div className="product-div">
                     {mensdata?.map((e, i) => {
@@ -101,7 +104,8 @@ export const Mens = () => {
                                         </div>
                                         <div className="price">₹{e.price}</div>
                                     </div>
-                                </div> </Link>
+                                </div> 
+                            </Link>
                         )
                     })}
 
