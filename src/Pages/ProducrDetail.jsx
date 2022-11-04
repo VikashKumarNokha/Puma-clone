@@ -1,6 +1,4 @@
-import { useScrollTrigger } from "@mui/material"
 import { useState } from "react"
-import { Link } from "react-router-dom"
 import "../css/ProductDetail.css"
 import {useParams,useLocation } from 'react-router-dom';
 import axios from "axios"
@@ -64,16 +62,15 @@ export const ProductDetails = () => {
                     {/* <!-- this is for product images part  start here--> */}
                     <div className="left-product-imgs">
                         <img  className="product-img1" src={product.img} alt="img"/>
-                    <div className="prod-mid-img">
+                       <div className="prod-mid-img">
                         <img className="img-size product-img2" src={product.img1} alt="img1"/>
                         <img className="img-size product-img3" src={product.img2} alt="img2"/>
-                    </div> 
-                    
+                       </div> 
                     </div>
                     {/* <!-- end here --> */}
 
                     {/* <!-- this part for price of product start here --> */}
-                    <div className="rigth-product-data">
+                  <div className="rigth-product-data">
                     <div className="rigth-product-data-div">
                         <div className="left-prod-heading">
                             <h1 className="prod-name">{product.title}</h1>
@@ -99,8 +96,8 @@ export const ProductDetails = () => {
                         <div className="product-variation-container">
                         <h3 className="prod-variation-lable">Size</h3>
                         </div>
-
-                        <ul className="prod-size-cate">
+                         {/*  Here size of the product available  */}
+                      <ul className="prod-size-cate">
                         <li className="design-size" id={`${small}`} onClick={() => {
                                 setSmall("S")
                                 setMedium("m")
@@ -125,9 +122,9 @@ export const ProductDetails = () => {
                             }} >
                             <p className="p-size">L</p>
                         </li>
-                        </ul>
-
-                        <div className="quantity-add-to-card">
+                      </ul>
+                               {/* Here quantity of the product */}
+                      <div className="quantity-add-to-card">
                         <div className="quantity-div">
                             <select  name="" id="" onChange={(e) => setQunatity(e.target.value)}>
                                 <option value="1">1</option>
@@ -135,10 +132,11 @@ export const ProductDetails = () => {
                                 <option value="3">3</option>
                             </select>
                         </div>
+                             {/*  Here add to cart button is available and wishlist button also */}
                         <div className="add-to-cart-btn">
-                                    <button className="cart-btn" onClick={() => dispatch(AddToCart({ ...product, qty: quntity, Size : size }))}> Add to Cart </button>
+                            <button className="cart-btn" onClick={() => dispatch(AddToCart({ ...product, qty: quntity, Size : size }))}> Add to Cart </button>
                             <button className="cLook-btn">Complete the Look</button>
-                            <div className="wish-list">
+                          <div className="wish-list">
                             <button className="wish-list-btn">
                                 <img
                                 className="heart-img"
@@ -147,7 +145,7 @@ export const ProductDetails = () => {
                                 />
                                 <span>Add to wishlist</span>
                             </button>
-                            </div>
+                          </div>
                         </div>
                         </div>
                         <hr className="hr-line" />
