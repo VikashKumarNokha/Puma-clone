@@ -2,7 +2,7 @@ import "../css/Cart.css"
 import { RiDeleteBinLine } from 'react-icons/ri';
 import { AiOutlineEdit } from 'react-icons/ai';
 import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useSelector,useDispatch } from "react-redux";
 import { DelteCart, GetCart } from "../Redux/cart/action";
 import CircularIndeterminate from "../components/Loading";
@@ -32,7 +32,7 @@ export const Cart = () => {
 
     return (
         
-        <div>
+        <div>    
                 <div id="sub">
                     <h1>MY SHOPPING CART<span id="cart-count">({cartDetails.length})</span></h1>
                     <div id="easy-returns">
@@ -41,7 +41,7 @@ export const Cart = () => {
                         </p>
                     </div>
                     
-                {loading ? <div className="loading" ><CircularIndeterminate /></div>
+                   {loading ? <div className="loading" ><CircularIndeterminate /></div>
                     :
                     <div id="cart-items">
                         <div className="cart-items-div">

@@ -27,7 +27,9 @@ export const ProductDetails = () => {
     let { id } = useParams();
     const dispatch = useDispatch()
     const location = useLocation();
-
+     let xx = useParams();
+    console.log("xxxx",xx)
+    console.log(location);
 
     useEffect(() => {
         getdata();
