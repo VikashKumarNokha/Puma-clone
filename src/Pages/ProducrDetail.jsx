@@ -166,7 +166,7 @@ export const ProductDetails = () => {
                     </div>
                 </div>
             </div>
-    
+             {/* this is used for pop-up massege  */}
             <ToastContainer />
         </div>
        
