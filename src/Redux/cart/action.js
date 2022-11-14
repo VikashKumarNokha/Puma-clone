@@ -2,12 +2,15 @@ import axios from "axios"
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-
+//    here all action Type  declared
 export const GET_CART_REQUEST = "GET_CART_REQUEST";
 export const GET_CART_SUCCESS = "GET_CART_SUCCESS";
 export const GET_CART_FAILURE = "GET_CART_FAILURE";
 export const ADD_TO_CART = "ADD_TO_CART";
+//    -------------action end -------------------
 
+
+//   here actions that happend for any particular action
 export const CartRequest = () => {
     return {
         type : GET_CART_REQUEST
@@ -27,8 +30,10 @@ export const CartFailure = (err) => {
         payload : err
     }
 }
+//    -----------end-----------------------------------
 
 
+//     here all actions for grtting , posting and  deleting data from store
 export const AddToCart = (payload) => (dispatch)=> {
     dispatch(CartRequest())
   
@@ -81,3 +86,5 @@ export const DelteCart = (id) => (dispatch)=> {
         dispatch(CartFailure(error.message))
     });
 }
+
+// ------------------------------------end--------------------
