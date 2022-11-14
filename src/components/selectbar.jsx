@@ -29,9 +29,7 @@ export default function MultipleSelectCheckmarks({names,title}) {
   
     // we will get selected value here use redux to handle state
     // setSearchParams( { title : Name })
-    useEffect(() => {
-     
-      
+    useEffect(() => {    
       setSearchParams( { [title]: Name }, {replace : true})
     },[Name,setSearchParams])
   

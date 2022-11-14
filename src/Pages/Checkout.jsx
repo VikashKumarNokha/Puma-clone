@@ -30,19 +30,21 @@ export const Checkout = () => {
     
     const dispatch = useDispatch()
     const navigate = useNavigate()
-
+ 
+//    here getting all data from cart
     useEffect(() => {
         dispatch(GetCart())
     },[])
-    
+    // ------ end------>
+
+    //   here finding sum of price of all products
     const subtotal = products.reduce(function (a, v) {
         return a + v.price
     },0)
-    // console.log(subtotal)
     const Total = subtotal + (products==0 ? 0 : 100);
-
+//   -------------------end-----------------
   
-
+    //     here handling all details of users for checkout 
     const handleChange = (e) => {
         setCheckoutData({
             ...checkoutdata,
@@ -50,7 +52,6 @@ export const Checkout = () => {
         })
         console.log(checkoutdata)
     }
-
 
     const handleCheckout =  (e) => {
         e.preventDefault()
@@ -67,11 +68,12 @@ export const Checkout = () => {
         }
 
     }
-
+//    ------------------end------------>
 
     return (
         <div className="checkout-page">
             <div className="checkout-container">
+                {/* here all input tag for checkout details  */}
                 <div className="checkout-left">
                     <h1>CHECKOUT</h1>
                     <h2>Signin for faster checkout experience</h2>
@@ -100,6 +102,7 @@ export const Checkout = () => {
                         {/* </Link> */}
                     </form>
                 </div>
+                 {/* ------------------- end- checkout details input tag---------------------- */}
 
                 {/* ----------rigt part----------- */}
                 <div className="checkout-right">
@@ -108,6 +111,7 @@ export const Checkout = () => {
                     {loading ? <div className="loading" ><CircularIndeterminate /></div>
                     :
                     <div>
+                         {/* ---------cart products details -----------------  */}
                         {products.map((e) => {
                             return (
                                 <div className="product-card">
@@ -143,7 +147,9 @@ export const Checkout = () => {
                         })}
                     </div>
                     }
+                    {/*  --------end cart products details----------- */}
 
+                    {/* here promo code section and  sub total of procude price  */}
                     <div className="line"></div> 
                     <div className="promo">
                         <h2>Apply a Promo Code</h2>
@@ -164,9 +170,10 @@ export const Checkout = () => {
                             <h4>₹{Total}</h4>
                         </div>
                     </div>  
+                     {/*------------ end sub total details---------- */}
                 </div>
-          
             </div>
+              {/*  here toast container for popup massage  */}
             <ToastContainer/>
         </div>
     )
