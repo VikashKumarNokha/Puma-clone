@@ -27,16 +27,19 @@ export default function MultipleSelectCheckmarks({names,title}) {
   
   const [searchParams, setSearchParams] = useSearchParams()
   
-    // we will get selected value here use redux to handle state
+    // we will get selected value here use redux to handle state || here only main logic ||
     // setSearchParams( { title : Name })
     useEffect(() => {    
       setSearchParams( { [title]: Name }, {replace : true})
     },[Name,setSearchParams])
-  
+    // -------end- searchparams------->
+
+
   const handleChange = (event) => {
     const {
       target: { value },
     } = event;
+
     setName(
       // On autofill we get a stringified value.
       typeof value === 'string' ? value.split(',') : value,

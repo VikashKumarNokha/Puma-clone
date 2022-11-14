@@ -13,15 +13,16 @@ export const Mens = () => {
     const [mensdata, setMensdata] = useState([])
     const [searchParams, setSearchParams] = useSearchParams()
     const [loading, setLoading] = useState(false)
-    
+   
+    //  getting data from all category like as mans, womens , kids
     useEffect(() => {
         getdata()
     }, [location.search])
-    
+     //  ------- end--------------- 
     console.log(location.search)
     const category = location.pathname.split("/")
    
-
+    //    sort items by heigh tolow and low to heigh 
     const [sort, setSort] = useState(null)
     console.log(sort)
     useEffect(() => {
@@ -29,6 +30,7 @@ export const Mens = () => {
             setSearchParams({order : sort,}, {replace : true})
         }
       },[sort,setSearchParams])
+    //   --------end  sorting ------------------>
 
     const getdata = () => {
 
