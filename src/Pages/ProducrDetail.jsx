@@ -36,7 +36,7 @@ export const ProductDetails = () => {
     },[])
     
     const getdata = () => {
-        axios.get(`https://puma-vikash-heroku.herokuapp.com${location.pathname}`)
+        axios.get(`https://puma-backend-xdz2.onrender.com${location.pathname}`)
         .then((res) => {
             // console.log(res.data)
             setProduct(res.data)
