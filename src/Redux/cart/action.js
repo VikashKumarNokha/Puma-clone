@@ -38,7 +38,7 @@ export const AddToCart = (payload) => (dispatch)=> {
     dispatch(CartRequest())
   
     console.log("payload",payload)
-    axios.post('https://puma-vikash-heroku.herokuapp.com/cart', payload)
+    axios.post('https://puma-backend-xdz2.onrender.com/cart', payload)
       .then(function (response) {
           console.log("bag", response.data);
           toast.success('Product added to cart sucessfully', {
@@ -58,7 +58,7 @@ export const GetCart = (payload) => (dispatch)=> {
     dispatch(CartRequest())
   
     
-    axios.get('https://puma-vikash-heroku.herokuapp.com/cart')
+    axios.get('https://puma-backend-xdz2.onrender.com/cart')
       .then(function (response) {
           console.log(response.data);
           dispatch(CartSuccess(response.data))
@@ -73,7 +73,7 @@ export const DelteCart = (id) => (dispatch)=> {
     dispatch(CartRequest())
   
     
-    axios.delete(`https://puma-vikash-heroku.herokuapp.com/cart/${id}`)
+    axios.delete(`https://puma-backend-xdz2.onrender.com/cart/${id}`)
     .then(function (response) {
         console.log(response.data);
         toast.success('Product removed from cart sucessfully', {
