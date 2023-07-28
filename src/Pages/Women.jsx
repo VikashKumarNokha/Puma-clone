@@ -30,7 +30,7 @@ export const Womens = () => {
 
     const getdata = () => {
         setLoading(true)
-        axios.get(`https://puma-vikash-heroku.herokuapp.com/Womens${location.search}`)
+        axios.get(`https://puma-backend-xdz2.onrender.com/Womens${location.search}`)
             .then(function (response) {
               setLoading(false)
               console.log(response.data);
