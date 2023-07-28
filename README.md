@@ -4,7 +4,7 @@
 https://puma-clone-sandy.vercel.app/
 
 ## backend 
-https://puma-vikash-heroku.herokuapp.com/
+https://puma-backend-xdz2.onrender.com/
 
 https://github.com/VikashKumarNokha/puma-backend
 
